@@ -176,8 +176,8 @@ main article div{
   padding-inline:1.5rem;
     }
 main article div h2{
-  font-size:2rem;
-  margin-block:3rem 2rem;
+  font-size:clamp(1.5rem, -0.4286rem + 6.0952vw, 3rem);
+  margin-block:2rem 1rem;
 }
 main article div p{
   color:var(--clrdark-gray);
